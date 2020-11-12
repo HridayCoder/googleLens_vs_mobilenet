@@ -1,0 +1,60 @@
+<html>
+<head> <title>Image Identification Web App</title> <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script> 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script> 
+     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"> 
+     <link rel="stylesheet" type="text/css" href="style.css"> </head>
+
+     <body>
+<img id="lens_logo" src="google_lens.png">
+<br>
+<h3>v/s</h3>
+<br>
+<div class="mobilenet btn btn-info">MobileNet</div>
+<ol>  
+    <div class="text_images_and_result">
+        <li>
+<b>Test Image 1</b>
+<img src="smartphone.jpg"class="img-responsive">
+        </li>
+        <h5>Output on google lens Project:<span> Samsung Galaxy S6</span></h5>
+        <h5>Output on Mobilenet Project:<span> Mobile phone</span></h5>
+<div class="mini_result">
+
+    <h4>Result: google lens is more accurate</h4><hr>
+    <h4>  </h4>
+    <br><br>
+    <li>
+      <b>Test Image 2</b>
+      <img src="mug.jpg"class="img-responsive">
+              </li>
+              <h5>Output on google lens Project:<span>coffee mug</span></h5>
+              <h5>Output on Mobilenet Project:<span> mug</span></h5>
+      <div class="mini_result">
+      
+          <h4>Result: google lens is more accurate</h4><hr>
+          <h4>  </h4>
+          <br><br>
+          <li>
+            <b>Test Image 3</b>
+            <img src="spoon.jpg"class="img-responsive">
+                    </li>
+                    <h5>Output on google lens Project:<span> spoon</span></h5>
+                    <h5>Output on Mobilenet Project:<span> perfume</span></h5>
+            <div class="mini_result">
+            
+                <h4>Result: google lens is more accurate</h4><hr>
+                
+</div>
+
+    </div> 
+  </ol>
+  </center>
+  <hr>
+   <div class="copy_right_footer">Developed By :- Hriday Bachhawat</div>
+<script src="main.js"></script>
+</body>    
+</html>
